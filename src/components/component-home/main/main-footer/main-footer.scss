@@ -1,0 +1,379 @@
+.main-footer {
+  margin-top: -170px;
+  background-color: #122442;
+  padding: 50px 0 20px;
+  .main-footer__wrap {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    max-width: 95%;
+    margin: 0 auto;
+    .main-footer__content {
+      display: flex;
+      flex-direction: column;
+      .accredidations {
+        margin-bottom: 30px;
+        h3 {
+          font-size: 14px;
+          font-family: "aileronbold";
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          color: #717482;
+        }
+      }
+      .footer-nav {
+        display: flex;
+        margin: 10px 30px;
+        .company-footer-nav {
+          h3 {
+            font-size: 14px;
+            font-family: "aileronbold";
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #717482;
+          }
+          .company-footer-nav-list {
+            display: flex;
+            ul {
+              margin-right: 50px;
+              padding: 0;
+              list-style: none;
+              li {
+                margin-bottom: 15px;
+                a {
+                  font-size: 1.6rem;
+                  font-family: "aileronsemibold";
+                  line-height: 20px;
+                  letter-spacing: 1px;
+                  padding: 0;
+                  padding-bottom: 15px;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+        .service-footer-nav {
+          h3 {
+            font-size: 14px;
+            font-family: "aileronbold";
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #717482;
+          }
+          .service-footer-nav-list {
+            display: flex;
+            ul {
+              margin-right: 50px;
+              padding: 0;
+              list-style: none;
+              li {
+                margin-bottom: 15px;
+                a {
+                  font-size: 1.6rem;
+                  font-family: "aileronsemibold";
+                  line-height: 20px;
+                  letter-spacing: 1px;
+                  padding: 0;
+                  padding-bottom: 15px;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+      .contact-options {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        p {
+          font-size: 14px;
+          font-family: "aileronsemibold";
+          letter-spacing: 1px;
+
+          span {
+            color: #95a9ca;
+          }
+          a {
+            color: #fff;
+          }
+        }
+        .email-us {
+          &::before {
+            font-size: 1.6rem;
+            margin-left: 8px;
+            content: "\f0e0";
+            color: yellow;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+          }
+        }
+        .call-us {
+          &::before {
+            font-size: 1.6rem;
+            margin-left: 8px;
+            content: "\f2a0";
+            color: yellow;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width:1023px) {
+  .main-footer {
+    margin-top: -170px;
+    background-color: #122442;
+    padding: 50px 0 20px;
+    .main-footer__wrap {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem;
+      max-width: 95%;
+      margin: 0 auto;
+      .main-footer__content {
+        display: flex;
+        flex-direction: column;
+        .accredidations {
+          margin-bottom: 30px;
+          h3 {
+            font-size: 14px;
+            font-family: "aileronbold";
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #717482;
+          }
+        }
+        .footer-nav {
+          display: flex;
+          margin: 10px 30px;
+          flex-direction: column;
+          .company-footer-nav {
+            h3 {
+              font-size: 14px;
+              font-family: "aileronbold";
+              text-transform: uppercase;
+              margin-bottom: 20px;
+              color: #717482;
+            }
+            .company-footer-nav-list {
+              display: flex;
+              ul {
+                margin-right: 50px;
+                padding: 0;
+                list-style: none;
+                li {
+                  margin-bottom: 15px;
+                  a {
+                    font-size: 1.6rem;
+                    font-family: "aileronsemibold";
+                    line-height: 20px;
+                    letter-spacing: 1px;
+                    padding: 0;
+                    padding-bottom: 15px;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+          .service-footer-nav {
+            h3 {
+              font-size: 14px;
+              font-family: "aileronbold";
+              text-transform: uppercase;
+              margin-bottom: 20px;
+              color: #717482;
+            }
+            .service-footer-nav-list {
+              display: flex;
+              ul {
+                margin-right: 50px;
+                padding: 0;
+                list-style: none;
+                li {
+                  margin-bottom: 15px;
+                  a {
+                    font-size: 1.6rem;
+                    font-family: "aileronsemibold";
+                    line-height: 20px;
+                    letter-spacing: 1px;
+                    padding: 0;
+                    padding-bottom: 15px;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .contact-options {
+          margin-top: 60px;
+          display: flex;
+          justify-content: space-between;
+          p {
+            font-size: 14px;
+            font-family: "aileronsemibold";
+            letter-spacing: 1px;
+
+            span {
+              color: #95a9ca;
+            }
+            a {
+              color: #fff;
+            }
+          }
+          .email-us {
+            &::before {
+              font-size: 1.6rem;
+              margin-left: 8px;
+              content: "\f0e0";
+              color: yellow;
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+            }
+          }
+          .call-us {
+            &::before {
+              font-size: 1.6rem;
+              margin-left: 8px;
+              content: "\f2a0";
+              color: yellow;
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width:732px) {
+  .main-footer {
+    margin-top: -170px;
+    background-color: #122442;
+    padding: 50px 0 20px;
+    .main-footer__wrap {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem;
+      max-width: 95%;
+      margin: 0 auto;
+      .main-footer__content {
+        display: flex;
+        flex-direction: column;
+        .accredidations {
+          margin-bottom: 30px;
+          h3 {
+            font-size: 14px;
+            font-family: "aileronbold";
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: #717482;
+          }
+        }
+        .footer-nav {
+          display: flex;
+          margin: 10px 30px;
+          flex-direction: column;
+          .company-footer-nav {
+            h3 {
+              font-size: 14px;
+              font-family: "aileronbold";
+              text-transform: uppercase;
+              margin-bottom: 20px;
+              color: #717482;
+            }
+            .company-footer-nav-list {
+              display: flex;
+              ul {
+                margin-right: 50px;
+                padding: 0;
+                list-style: none;
+                li {
+                  margin-bottom: 15px;
+                  a {
+                    font-size: 1.2rem;
+                    font-family: "aileronsemibold";
+                    line-height: 20px;
+                    letter-spacing: 1px;
+                    padding: 0;
+                    padding-bottom: 15px;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+          .service-footer-nav {
+            h3 {
+              font-size: 14px;
+              font-family: "aileronbold";
+              text-transform: uppercase;
+              margin-bottom: 20px;
+              color: #717482;
+            }
+            .service-footer-nav-list {
+              display: flex;
+              ul {
+                margin-right: 50px;
+                padding: 0;
+                list-style: none;
+                li {
+                  margin-bottom: 15px;
+                  a {
+                    font-size: 1.2rem;
+                    font-family: "aileronsemibold";
+                    line-height: 20px;
+                    letter-spacing: 1px;
+                    padding: 0;
+                    padding-bottom: 15px;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .contact-options {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          p {
+            font-size: 14px;
+            font-family: "aileronsemibold";
+            letter-spacing: 1px;
+
+            span {
+              color: #95a9ca;
+            }
+            a {
+              color: #fff;
+            }
+          }
+          .email-us {
+            &::before {
+              font-size: 1.6rem;
+              margin-left: 8px;
+              content: "\f0e0";
+              color: yellow;
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+            }
+          }
+          .call-us {
+            &::before {
+              font-size: 1.6rem;
+              margin-left: 8px;
+              content: "\f2a0";
+              color: yellow;
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+            }
+          }
+        }
+      }
+    }
+  }
+}
