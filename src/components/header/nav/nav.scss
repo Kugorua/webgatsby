@@ -89,7 +89,7 @@
     }
   }
   .contact {
-    width: 20%;
+    width: 30%;
 
     display: flex;
     justify-content: space-around;
@@ -108,7 +108,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 1204px) {
+@media screen and (max-width: 1024px) {
   .nav {
     .nav__wrap {
       display: flex;

@@ -20,10 +20,10 @@ export default function LatestBlogs() {
         },
       },
       {
-        breakpoint: 800,
+        breakpoint: 813,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           dots: true,
         },
       },

@@ -78,14 +78,15 @@
     }
   }
 }
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 1024px) {
   .why-highervis {
     padding-top: 140px;
     padding-bottom: 50px;
+    margin-top: 0px;
     background: #f0f2f5
       url("https://www.highervisibility.com/wp-content/uploads/2019/01/home-hero-graph.png")
       no-repeat bottom center;
-    margin-top: 1250px;
+
     .why-highervis__wrap {
       margin-left: 8.33333%;
       width: 83.33333%;
@@ -159,5 +160,25 @@
         }
       }
     }
+  }
+}
+@media screen and (max-width: 812px) {
+  .why-highervis {
+    padding-top: 140px;
+    padding-bottom: 50px;
+    margin-top: 1150px;
+    background: #f0f2f5
+      url("https://www.highervisibility.com/wp-content/uploads/2019/01/home-hero-graph.png")
+      no-repeat bottom center;
+  }
+}
+@media screen and (max-width: 568px) {
+  .why-highervis {
+    padding-top: 140px;
+    padding-bottom: 50px;
+    margin-top: 1350px;
+    background: #f0f2f5
+      url("https://www.highervisibility.com/wp-content/uploads/2019/01/home-hero-graph.png")
+      no-repeat bottom center;
   }
 }
