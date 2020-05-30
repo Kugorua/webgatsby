@@ -12,27 +12,26 @@
       font-family: "aileronregular";
       margin-bottom: 60px;
     }
-    .list-recognition {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-
+    .item-wrap {
+      outline: none;
+      width: 100%;
+      margin: auto;
+      cursor: pointer;
       .item-recognition {
-        text-align: center;
-        background-color: #fff;
-        margin: 10px;
-        padding: 40px 10px;
-        min-width: 200px;
+        width: 95%;
+        margin: auto;
+        background-color: white;
+        min-height: 300px;
         img {
-          margin-bottom: 20px;
-          vertical-align: middle;
+          width: 50%;
+          height: 100px;
+          margin: auto;
+          padding: 30px;
         }
+
         p {
-          text-align: center;
-          margin: 0;
           font-size: 1.6rem;
-          color: #706b66;
-          max-width: 200px;
+          margin-top: 20px;
         }
       }
     }

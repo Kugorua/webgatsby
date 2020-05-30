@@ -90,6 +90,7 @@
   }
   .contact {
     width: 20%;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -105,6 +106,118 @@
   }
   .icon-nav {
     display: none;
+  }
+}
+@media screen and (max-width: 1204px) {
+  .nav {
+    .nav__wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0 0px;
+      color: white;
+      font-size: 1.6rem;
+      font-weight: 400;
+      font-family: "aileronregular";
+      .nav__logo {
+      }
+      .nav__main {
+        width: 60%;
+        .nav__main-list {
+          display: flex;
+          justify-content: flex-end;
+          padding: 0;
+          .nav__main-list-item {
+            list-style: none;
+            cursor: default;
+            padding: 10px 20px;
+            position: relative;
+            &:hover {
+              p {
+                color: #fdb817;
+              }
+              .list-menu {
+                display: block;
+              }
+            }
+            &:last-child {
+              p {
+                &::after {
+                  content: "";
+                }
+              }
+            }
+            p {
+              &::after {
+                font-size: 1.2rem;
+                margin-left: 8px;
+                content: "\f107";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+              }
+            }
+            .list-menu {
+              position: absolute;
+              display: none;
+              left: 50%;
+              transform: translateX(-50%);
+              .sub-menu {
+                list-style: none;
+                padding: 0;
+                min-width: 145px;
+                top: 50px;
+                right: -125px;
+                background-color: rgba(18, 36, 66, 0.98);
+                z-index: 20;
+                padding: 30px 30px 15px;
+
+                .sub-menu-item {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: flex-start;
+                  width: 100%;
+                  margin-bottom: 10px;
+                  border: none;
+                  &:hover {
+                    a {
+                      border-bottom: 2px solid #fdb817;
+                    }
+                  }
+                  a {
+                    display: inline;
+                    padding: 0 0 7px;
+                    transition: border-bottom 0.15s;
+                    border-bottom: 3px solid transparent;
+                    font-size: 1.2rem;
+                    color: white;
+                    text-transform: uppercase;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .contact {
+      width: 30%;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      a {
+        cursor: pointer;
+        &:last-child {
+          background-color: #fdb817;
+          padding: 5px 15px;
+          text-transform: uppercase;
+          border-radius: 3px;
+        }
+      }
+    }
+    .icon-nav {
+      display: none;
+    }
   }
 }
 @media screen and (max-width: 1023px) {
