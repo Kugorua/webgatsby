@@ -31,6 +31,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     ```shell
 
     cd highervisibilityGatsby.com-master
+    npm install
     gatsby develop
     ```
 
