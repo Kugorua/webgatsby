@@ -5,8 +5,7 @@ import WhyHighervis from "./why-highervis/WhyHighervis"
 import Partners from "./partners/Partners"
 import CompanyRecognition from "./company-recognition/CompanyRecognition"
 import LatestBlogs from "./latest-blogs/LatestBlogs"
-import LetsTalk from "./lets-talk/LetsTalk"
-import MainFooter from "./main-footer/MainFooter"
+
 export default function Main() {
   return (
     <div className="main">
@@ -16,8 +15,6 @@ export default function Main() {
         <Partners />
         <CompanyRecognition />
         <LatestBlogs />
-        <LetsTalk />
-        <MainFooter />
       </div>
     </div>
   )

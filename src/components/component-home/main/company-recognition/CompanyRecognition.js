@@ -55,7 +55,7 @@ const CompanyRecognition = () => {
                   {data.allCompanyJson.edges.map((item, index) => {
                     return (
                       <>
-                        <div className="item-wrap">
+                        <div className="item-wrap" key={index}>
                           <div className="item-recognition">
                             {" "}
                             <img src={item.node.logo} alt="UpCity Logo" />

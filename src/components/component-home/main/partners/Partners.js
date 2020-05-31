@@ -38,25 +38,20 @@ const Partners = () => (
             <div className="partners__content">
               {data.allPartnerJson.edges.map((item, index) => {
                 return (
-                  <>
-                    <div className="cell partner">
-                      <div className="case-study-logo">
-                        <a href="https://www.highervisibility.com/case-study/allied-van-lines/">
-                          <img
-                            src={item.node.img}
-                            alt="Allied Van Lines Logo"
-                          />
-                        </a>
-                      </div>
-                      <h3>
-                        <a href="https://www.highervisibility.com/case-study/allied-van-lines/">
-                          {item.node.title}
-                        </a>
-                      </h3>
-                      <p className="stat-number">{item.node.parameter}</p>
-                      <p className="stat-type">{item.node.content}</p>
+                  <div className="cell partner" key={index}>
+                    <div className="case-study-logo">
+                      <a href="https://www.highervisibility.com/case-study/allied-van-lines/">
+                        <img src={item.node.img} alt="Allied Van Lines Logo" />
+                      </a>
                     </div>
-                  </>
+                    <h3>
+                      <a href="https://www.highervisibility.com/case-study/allied-van-lines/">
+                        {item.node.title}
+                      </a>
+                    </h3>
+                    <p className="stat-number">{item.node.parameter}</p>
+                    <p className="stat-type">{item.node.content}</p>
+                  </div>
                 )
               })}
               <div className="cell testimonial">

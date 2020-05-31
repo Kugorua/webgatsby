@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Link from "gatsby-link"
 import "./nav.scss"
 export default function Nav() {
   const [isNav, setIsNav] = useState(false)
@@ -9,9 +10,12 @@ export default function Nav() {
     <div className="nav">
       <div className="nav__wrap">
         <div className="nav__logo">
-          <a href="#">
-            <img src="https://www.highervisibility.com/wp-content/themes/highervisibility_new/img/header-logo.png" />
-          </a>
+          <Link to="/">
+            <img
+              src="https://www.highervisibility.com/wp-content/themes/highervisibility_new/img/header-logo.png"
+              alt="HigherVisibility Company Logo"
+            />
+          </Link>
         </div>
         <div className={`nav__main ${isNav && "nav__main-800"}`}>
           <ul className="nav__main-list">
@@ -97,16 +101,17 @@ export default function Nav() {
               </div>
             </li>
             <li className="nav__main-list-item">
-              <p>CONTACT</p>
+              <p>
+                <Link to="/contact">CONTACT</Link>
+              </p>
             </li>
           </ul>
         </div>
         <div className="contact">
-          <a>888.212.4458</a>
-          <a>Let's Talk</a>
+          <a href="tel:8882124458">888.212.4458</a>
+          <a href="/">Let's Talk</a>
         </div>
-        <div className="icon-nav" onClick={showNav}>
-          {console.log(isNav)}
+        <div className="icon-nav" onClick={showNav} role="presentation">
           <i className="fas fa-bars" style={{ fontSize: 30, color: "white" }} />
         </div>
       </div>

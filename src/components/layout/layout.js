@@ -8,12 +8,20 @@
 import React from "react"
 import "./layout.css"
 import Header from "../header/Header"
-
-const Layout = ({ children }) => {
+import Footer from "../footer/Footer"
+const Layout = props => {
   return (
     <div className="app">
-      <Header />
-      {children}
+      <Header
+        title={props.title}
+        titleSub={props.titleSub}
+        titleContent={props.titleContent}
+        display={props.display}
+        content={props.content}
+        background={props.background}
+      />
+      {props.children}
+      <Footer />
     </div>
   )
 }

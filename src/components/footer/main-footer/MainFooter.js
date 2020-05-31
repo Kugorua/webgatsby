@@ -7,19 +7,13 @@ export default function MainFooter() {
         <div className="main-footer__content">
           <div className="accredidations">
             <h3>Our Accreditations</h3>{" "}
-            <a
-              href="https://www.google.com/partners/#a_profile;idtf=5461624892"
-              target="_blank"
-            >
+            <a href="https://www.google.com/partners/#a_profile;idtf=5461624892">
               <img
                 src="https://www.highervisibility.com/wp-content/themes/highervisibility_new/img/google-partner.png"
                 alt="Google Premier Partner Logo"
               />
             </a>{" "}
-            <a
-              href="https://www.bbb.org/memphis/business-reviews/internet-marketing-services/higher-visibility-in-cordova-tn-44049603"
-              target="_blank"
-            >
+            <a href="https://www.bbb.org/memphis/business-reviews/internet-marketing-services/higher-visibility-in-cordova-tn-44049603">
               <img
                 src="https://www.highervisibility.com/wp-content/themes/highervisibility_new/img/bbb.png"
                 alt="BBB Logo"

@@ -26,22 +26,20 @@ const Services = () => (
             <div className="grid-x">
               {data.allServiceJson.edges.map((item, index) => {
                 return (
-                  <>
-                    <div key={index} className="content-wrap">
-                      <div className="medium-4 cell">
-                        <img src={imgSearch} />
-                        <h3>{item.node.title}</h3>
-                        <p>{item.node.content}</p>
+                  <div key={index} className="content-wrap">
+                    <div className="medium-4 cell">
+                      <img src={imgSearch} alt="" />
+                      <h3>{item.node.title}</h3>
+                      <p>{item.node.content}</p>
 
-                        <a
-                          href="https://www.highervisibility.com/search-engine-optimization/"
-                          className="button secondary"
-                        >
-                          More
-                        </a>
-                      </div>
+                      <a
+                        href="https://www.highervisibility.com/search-engine-optimization/"
+                        className="button secondary"
+                      >
+                        More
+                      </a>
                     </div>
-                  </>
+                  </div>
                 )
               })}
             </div>

@@ -16,29 +16,29 @@ export default function LetsTalk() {
               <h1>Schedule a Consultation</h1>
               <form className="schedule-consultation__form">
                 <div className="formi-tem">
-                  <label>First Name</label>
-                  <input type="text" />
+                  <label htmlFor="first-name">First Name</label>
+                  <input id="first-name" type="text" />
                 </div>
                 <div className="formi-tem">
-                  <label>Company Name </label>
-                  <input type="text" />
+                  <label htmlFor="name">Company Name </label>
+                  <input id="name" type="text" />
                 </div>
                 <div className="formi-tem">
-                  <label>Last Name </label>
-                  <input type="text" />
+                  <label htmlFor="last-name">Last Name </label>
+                  <input id="last-name" type="text" />
                 </div>
                 <div className="formi-tem">
-                  <label>Website </label>
-                  <input type="text" />
+                  <label htmlFor="website">Website </label>
+                  <input id="website" type="text" />
                 </div>
                 <div className="formi-tem">
-                  <label>Email</label>
-                  <input type="text" />
+                  <label htmlFor="email">Email</label>
+                  <input id="email" type="text" />
                 </div>
 
                 <div className="formi-tem">
-                  <label>Phone Number</label>
-                  <input type="text" />
+                  <label htmlFor="phone-number">Phone Number</label>
+                  <input id="phone-number" type="text" />
                 </div>
                 <div className="form-checkbox">
                   <div className="label-title">
@@ -48,39 +48,39 @@ export default function LetsTalk() {
                   <div className="checkbox-list">
                     <div className="checkbox-item">
                       <input id="seo" type="checkbox" />
-                      <label for="seo">SEO</label>
+                      <label htmlFor="seo">SEO</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="pcc" type="checkbox" />
-                      <label for="pcc">PPC</label>
+                      <label htmlFor="pcc">PPC</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="web-design" type="checkbox" />
-                      <label for="web-design">WEB DESIGN</label>
+                      <label htmlFor="web-design">WEB DESIGN</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="seo-about" type="checkbox" />
-                      <label for="seo-about">SEO AUDIT</label>
+                      <label htmlFor="seo-about">SEO AUDIT</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="white-label" type="checkbox" />
-                      <label for="white-label">WHITE LABEL</label>
+                      <label htmlFor="white-label">WHITE LABEL</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="reseller" type="checkbox" />
-                      <label for="reseller"> RESELLER</label>
+                      <label htmlFor="reseller"> RESELLER</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="local-listing" type="checkbox" />
-                      <label for="local-listing">LOCAL LISTINGS</label>
+                      <label htmlFor="local-listing">LOCAL LISTINGS</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="social" type="checkbox" />
-                      <label for="social"> SOCIAL</label>
+                      <label htmlFor="social"> SOCIAL</label>
                     </div>
                     <div className="checkbox-item">
                       <input id="link-building" type="checkbox" />
-                      <label for="link-building">LINK BUILDING</label>
+                      <label htmlFor="link-building">LINK BUILDING</label>
                     </div>
                   </div>
                 </div>

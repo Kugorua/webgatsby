@@ -53,7 +53,7 @@ export default function LatestBlogs() {
               <Slider {...settings}>
                 {data.allLatestBlogsJson.edges.map((item, index) => {
                   return (
-                    <div className="owl-item active">
+                    <div className="owl-item active" key={index}>
                       <div className="item-blog">
                         <p className="date">{item.node.date}</p>
                         <h3>
