@@ -24,22 +24,10 @@ export default function Nav() {
               <div className="list-menu">
                 <ul className="sub-menu">
                   <li className="sub-menu-item">
-                    <Link to="/seo-service">Seo Service</Link>
+                    <Link to="/seo-service">Page 1</Link>
                   </li>
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/management-team/">
-                      Management Team
-                    </a>
-                  </li>
-                  <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/portfolio/">
-                      Design Portfolio
-                    </a>
-                  </li>
-                  <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/client-reviews/">
-                      Client Reviews
-                    </a>
+                    <Link to="/contact">Page 2</Link>
                   </li>
                 </ul>
               </div>
@@ -77,22 +65,17 @@ export default function Nav() {
                 <ul className="sub-menu">
                   <li className="sub-menu-item">
                     <a href="https://www.highervisibility.com/about-us/">
-                      About Us
+                      BLOG
                     </a>
                   </li>
                   <li className="sub-menu-item">
                     <a href="https://www.highervisibility.com/management-team/">
-                      Management Team
+                      RESOURCES
                     </a>
                   </li>
                   <li className="sub-menu-item">
                     <a href="https://www.highervisibility.com/portfolio/">
-                      Design Portfolio
-                    </a>
-                  </li>
-                  <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/client-reviews/">
-                      Client Reviews
+                      FREE SEO TOOLS
                     </a>
                   </li>
                 </ul>

@@ -17,6 +17,8 @@ const Layout = props => {
         titleSub={props.titleSub}
         titleContent={props.titleContent}
         display={props.display}
+        displaybtn={props.displaybtn}
+        displaycontent={props.displaycontent}
         content={props.content}
         background={props.background}
       />

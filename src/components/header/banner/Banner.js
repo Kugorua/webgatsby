@@ -12,8 +12,11 @@ export default function Banner(props) {
           {props.titleContent}
           <em style={{ display: props.display }}>sales</em>
         </h1>
-        <p style={{ display: props.display }}>{props.content}</p>
-        <a href="https://www.facebook.com/" style={{ display: props.display }}>
+        <p style={{ display: props.displaycontent }}>{props.content}</p>
+        <a
+          href="https://www.facebook.com/"
+          style={{ display: props.displaybtn }}
+        >
           SCHEDULE A CONSULTATION
         </a>
       </div>

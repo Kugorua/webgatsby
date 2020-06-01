@@ -6,7 +6,7 @@ export default function LatestBlogs() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 600,
+    speed: 800,
     slidesToShow: 4,
     slidesToScroll: 2,
     responsive: [

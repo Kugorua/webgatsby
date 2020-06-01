@@ -143,6 +143,9 @@
               text-transform: uppercase;
               letter-spacing: 1px;
               border-radius: 3px;
+              &:hover {
+                background-color: #b17e09;
+              }
             }
           }
         }
@@ -196,6 +199,9 @@
               font-family: "aileronsemibold";
               padding: 12px 18px;
               font-size: 14px;
+              &:hover {
+                background-color: #b17e09;
+              }
             }
           }
         }
@@ -342,13 +348,17 @@
               margin: 15px 0;
               button {
                 font-size: 16px;
-                padding: 20px 50px;
+                padding: 20px 100px;
                 border: none;
                 background-color: #fdb817;
                 color: white;
                 text-transform: uppercase;
                 letter-spacing: 1px;
                 border-radius: 3px;
+                cursor: pointer;
+                &:hover {
+                  background-color: #b17e09;
+                }
               }
             }
           }
@@ -557,7 +567,7 @@
               margin: 15px 0;
               button {
                 font-size: 16px;
-                padding: 20px 50px;
+                padding: 20px 100px;
                 border: none;
                 background-color: #fdb817;
                 color: white;

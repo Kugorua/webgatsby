@@ -14,6 +14,8 @@ export default function Seoservice() {
         content="Are you looking to build a sustainable future for your website? Partner with the agency that was named SEO Company of the Year. We have a proven record of achieving your ultimate goal...more conversions!
 
         "
+        displaybtn="block"
+        displaycontent="block"
       >
         <Seo title="Seo Service| Highervisibility" />
         <SeoService />

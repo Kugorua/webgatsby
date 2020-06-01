@@ -12,6 +12,8 @@ export default function Header(props) {
           titleSub={props.titleSub}
           titleContent={props.titleContent}
           display={props.display}
+          displaybtn={props.displaybtn}
+          displaycontent={props.displaycontent}
           content={props.content}
         />
       </div>
