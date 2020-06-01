@@ -24,9 +24,7 @@ export default function Nav() {
               <div className="list-menu">
                 <ul className="sub-menu">
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/about-us/">
-                      About Us
-                    </a>
+                    <Link to="/seo-service">Seo Service</Link>
                   </li>
                   <li className="sub-menu-item">
                     <a href="https://www.highervisibility.com/management-team/">
