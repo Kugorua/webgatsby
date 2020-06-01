@@ -27,3 +27,14 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .fqa {
+    padding: 100px 0;
+    .fqa__wrap {
+      .list-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+}

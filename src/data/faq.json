@@ -1,0 +1,60 @@
+[
+  {
+    "list1": [
+      {
+        "id": "0",
+        "title": "Do you offer any guarantees?",
+        "content": "SEO is the application of various strategies to improve the search rankings of a website. These strategies range from on-page optimization, quality content, to authoritative link building. SEO is an important piece to any online marketing plan and with a well-rounded strategy; most any website can see improved rankings. For a more in-depth explanation, read our guide on"
+      },
+      {
+        "id": "1",
+        "title": "Do you offer any guarantees?",
+        "content": "Google warns to stay away from companies claiming to guarantee rankings. Any company that says they can is being dishonest, as Google’s algorithm changes frequently. HigherVisibility is a leading digital marketing agency, that consistently provides our clients the highest level of service and results. While we cannot guarantee top rankings, we have a proven track record of delivering results to our clients. Read our case studies to learn how we have been a valuable partner to so many successful businesses."
+      },
+      {
+        "id": "2",
+        "title": "Do you outsource your work?",
+        "content": "To ensure we are providing our clients the best quality of SEO service and proper oversight, all employees are located at our corporate headquarters. You are paying for the experts, so you deserve to have them overseeing your campaign."
+      },
+      {
+        "id": "3",
+        "title": "How long does it take to see results?",
+        "content": "With over 200 different ranking signals, it is difficult to predict how long it will take a website to rank. In our experience clients typically see significant improvement on long tail keywords in the first 90 days and more competitive search terms around 180 days. SEO is a long-term strategy but has consistently proven to provide the best ROI."
+      },
+      {
+        "id": "4",
+        "title": "Will I have to make changes to my website?",
+        "content": "Normally no structural or design changes will need to be made to properly optimize your website. Most of the work we perform is in the code or content of each page. Typically, most clients elect to have our staff make the changes; however, we can also provide clear directives if you would prefer implementing internally."
+      }
+    ]
+  },
+  {
+    "list2": [
+      {
+        "id": "5",
+        "title": "Do you do link building?",
+        "content": "Yes. We have built relationships with hundreds of publishers, bloggers, and journalists over the years and we are building new relationships every day. Our link building (Digital PR) team takes pride in delivering relevant, highly authoritative backlinks to propel our clients forward in the search rankings. If you feel like your staff has a good handle on most of the day to day tasks except for link building, request a free consultation and our Digital Marketing Consultants can discuss our link building service options with you. For more information on link building,"
+      },
+      {
+        "id": "6",
+        "title": "Can you help websites with a Google penalty?",
+        "content": "Yes, we have been very successful at removing all types of Google penalties. If your website is experiencing an issue, please contact us to learn how we can help get your website back in good standing."
+      },
+      {
+        "id": "7",
+        "title": "How do you conduct keyword research?",
+        "content": "We use a variety of tools to analyze keywords across all industry types. For each individual search phrase, we look to determine the search volume, relevancy to the client’s business, the likelihood that they will lead to sales, as well as the competitiveness of the keyword. Our team handpicks each keyword based on our belief that it will contribute to a successful campaign."
+      },
+      {
+        "id": "8",
+        "title": "Will you work with Ecommerce sites?",
+        "content": "Yes. Ecommerce websites have their own unique set of challenges, but our proven practices develop successful results time and again. We also have worked with a variety of shopping cart platforms such as Magento, Shopify, and Big Commerce to name a few. For more information about our Ecommerce SEO solutions"
+      },
+      {
+        "id": "9",
+        "title": "Can SEO increase my sales or leads?",
+        "content": "Yes. Search engine optimization can improve a website’s visibility in the search results. That increased visibility will lead to more potential customers learning more about your products or services.  Very few marketing services can offer a comparable quality of customer and ROI."
+      }
+    ]
+  }
+]

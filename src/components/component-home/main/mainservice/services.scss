@@ -108,7 +108,7 @@
     }
   }
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .services {
     height: 680px;
     .services__wrap {
@@ -192,6 +192,7 @@
               color: #555;
               margin: 0;
               font-family: "aileronsemibold";
+              min-height: 120px;
             }
             p {
               font-size: 1.6rem;
@@ -220,7 +221,7 @@
     }
   }
 }
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 768px) {
   .services {
     height: 680px;
     .services__wrap {
