@@ -1,0 +1,38 @@
+.award-banner {
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0.9375rem;
+  margin: 0 auto;
+  max-width: 90%;
+  margin-top: 50px;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+  .award-content {
+    margin-left: 20px;
+    h2 {
+      margin-bottom: 0;
+      font-size: 22px;
+      color: #333;
+      font-family: "aileronbold";
+      font-style: normal;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    p {
+      margin: 0;
+      font-size: 1.8rem;
+      a {
+        line-height: inherit;
+        color: #3d75d0;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.seo-service {
+  .service-cta {
+    display: flex;
+    justify-content: center;
+    a {
+      font-size: 16px;
+      padding: 10px 50px;
+      text-shadow: 1px 1px 0px rgba(223, 157, 2, 0.8);
+      color: white;
+      background-color: #fdb817;
+      margin-bottom: 30px;
+    }
+  }
+}

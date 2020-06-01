@@ -1,0 +1,132 @@
+.service-case-study {
+  &::before {
+    content: "";
+    width: 110%;
+    height: 110%;
+    left: -5%;
+    top: -5%;
+    background: linear-gradient(
+        -5deg,
+        rgba(41, 137, 204, 0.8),
+        rgba(158, 219, 242, 0.8)
+      ),
+      url(https://www.highervisibility.com/wp-content/themes/highervisibility_new/img/blur-bg.jpg)
+        no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(510px);
+    filter: blur(10px);
+  }
+  position: relative;
+  overflow: hidden;
+  padding: 50px 0;
+  margin-top: 100px;
+  color: black;
+  .grid-container {
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 90%;
+    margin: auto;
+    .grid-x {
+      display: flex;
+      justify-content: space-around;
+      .text-center {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        .case_study_screenshot {
+          position: relative;
+
+          .iphone-frame-container {
+            position: absolute;
+            top: -50px;
+            left: -55px;
+          }
+        }
+      }
+      .service-case-study__content {
+        width: 50%;
+        z-index: 900;
+        color: white;
+        h2 {
+          font-size: 25px;
+          margin-top: 100px;
+          text-transform: uppercase;
+          font-family: "aileronregular";
+        }
+        p {
+          font-size: 1.8rem;
+          a {
+            background-color: #fdb817;
+            line-height: 1;
+            text-align: center;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width:768px) {
+  .service-case-study {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    margin-top: 100px;
+    color: black;
+    .grid-container {
+      padding-right: 20px;
+      padding-left: 20px;
+      max-width: 90%;
+      margin: auto;
+      .grid-x {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .text-center {
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          .case_study_screenshot {
+            position: relative;
+
+            .iphone-frame-container {
+              position: absolute;
+              top: -50px;
+              left: -55px;
+            }
+          }
+        }
+        .service-case-study__content {
+          width: 80%;
+          text-align: center;
+          h2 {
+            font-size: 25px;
+            margin-top: 100px;
+            text-transform: uppercase;
+            font-family: "aileronregular";
+          }
+          p {
+            font-size: 1.8rem;
+            a {
+              background-color: #fdb817;
+              line-height: 1;
+              text-align: center;
+              cursor: pointer;
+              padding: 10px 20px;
+              border-radius: 5px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
