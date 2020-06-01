@@ -10,6 +10,8 @@ export default function contact() {
         titleSub=""
         titleContent=""
         display="none"
+        displaybtn="none"
+        displaycontent="none"
         background="backgroud-none"
       >
         <Seo title="Contact Us| Highervisibility" />
