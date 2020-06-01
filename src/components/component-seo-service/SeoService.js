@@ -2,6 +2,7 @@ import React from "react"
 import AwarBanner from "./awar-banner/AwarBanner"
 import ServiceContent from "./service-content/ServiceContent"
 import ServiceCaseStudy from "./service-case-study/ServiceCaseStudy"
+import Faq from "./faq/Faq"
 import "./seo-service.scss"
 export default function SeoService() {
   return (
@@ -20,6 +21,7 @@ export default function SeoService() {
         </a>
       </div>
       <ServiceCaseStudy />
+      <Faq />
     </div>
   )
 }
