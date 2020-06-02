@@ -54,6 +54,16 @@
             display: none;
             left: 50%;
             transform: translateX(-50%);
+            &::before {
+              content: "";
+              border: 20px solid;
+              border-color: transparent transparent rgba(18, 36, 66, 0.98)
+                transparent;
+              position: absolute;
+              top: -28px;
+              right: 50%;
+              transform: translateX(50%);
+            }
             .sub-menu {
               list-style: none;
               padding: 0;
