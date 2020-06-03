@@ -37,24 +37,16 @@ export default function Nav() {
               <div className="list-menu">
                 <ul className="sub-menu">
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/about-us/">
-                      About Us
-                    </a>
+                    <a href={"#"}>About Us</a>
                   </li>
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/management-team/">
-                      Management Team
-                    </a>
+                    <a href={"#"}>Management Team</a>
                   </li>
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/portfolio/">
-                      Design Portfolio
-                    </a>
+                    <a href={"#"}>Design Portfolio</a>
                   </li>
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/client-reviews/">
-                      Client Reviews
-                    </a>
+                    <a href={"#"}>Client Reviews</a>
                   </li>
                 </ul>
               </div>
@@ -64,19 +56,13 @@ export default function Nav() {
               <div className="list-menu">
                 <ul className="sub-menu">
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/about-us/">
-                      BLOG
-                    </a>
+                    <a href={"#"}>BLOG</a>
                   </li>
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/management-team/">
-                      RESOURCES
-                    </a>
+                    <a href={"#"}>RESOURCES</a>
                   </li>
                   <li className="sub-menu-item">
-                    <a href="https://www.highervisibility.com/portfolio/">
-                      FREE SEO TOOLS
-                    </a>
+                    <a href={"#"}>FREE SEO TOOLS</a>
                   </li>
                 </ul>
               </div>
@@ -89,8 +75,8 @@ export default function Nav() {
           </ul>
         </div>
         <div className="contact">
-          <a href="tel:8882124458">888.212.4458</a>
-          <a href="/">Let's Talk</a>
+          <a href={"#"}>888.212.4458</a>
+          <a href={"#"}>Let's Talk</a>
         </div>
         <div className="icon-nav" onClick={showNav} role="presentation">
           <i className="fas fa-bars" style={{ fontSize: 30, color: "white" }} />

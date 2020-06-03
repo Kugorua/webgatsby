@@ -5,31 +5,37 @@
     margin-top: -150px;
     padding: 130px 0 100px;
     overflow: hidden;
+    outline: none;
     h2 {
       color: #555;
       font-size: 30px;
       text-transform: uppercase;
       font-family: "aileronregular";
       margin-bottom: 60px;
+      cursor: -webkit-grab;
     }
     .item-wrap {
       outline: none;
       width: 100%;
       margin: auto;
       cursor: pointer;
+      cursor: -webkit-grab;
       .item-recognition {
         width: 95%;
         margin: auto;
         background-color: white;
         min-height: 300px;
+        cursor: -webkit-grab;
         img {
           width: 50%;
           height: 100px;
           margin: auto;
           padding: 30px;
+          cursor: -webkit-grab;
         }
 
         p {
+          cursor: -webkit-grab;
           font-size: 1.6rem;
           margin-top: 20px;
         }

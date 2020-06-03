@@ -57,9 +57,7 @@ export default function LatestBlogs() {
                       <div className="item-blog">
                         <p className="date">{item.node.date}</p>
                         <h3>
-                          <a href="https://www.highervisibility.com/blog/how-to-get-more-leads/">
-                            {item.node.title}
-                          </a>
+                          <a href={"#"}>{item.node.title}</a>
                         </h3>
                         <p className="item-blog-content">{item.node.content}</p>
                       </div>
@@ -69,10 +67,7 @@ export default function LatestBlogs() {
               </Slider>
               <div className="primarys">
                 {" "}
-                <a
-                  href="https://www.highervisibility.com/blog"
-                  className="button primary"
-                >
+                <a href={"#"} className="button primary">
                   See Our Blog
                 </a>
               </div>

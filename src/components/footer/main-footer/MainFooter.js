@@ -7,13 +7,13 @@ export default function MainFooter() {
         <div className="main-footer__content">
           <div className="accredidations">
             <h3>Our Accreditations</h3>{" "}
-            <a href="https://www.google.com/partners/#a_profile;idtf=5461624892">
+            <a href={"#"}>
               <img
                 src="https://www.highervisibility.com/wp-content/themes/highervisibility_new/img/google-partner.png"
                 alt="Google Premier Partner Logo"
               />
             </a>{" "}
-            <a href="https://www.bbb.org/memphis/business-reviews/internet-marketing-services/higher-visibility-in-cordova-tn-44049603">
+            <a href={"#"}>
               <img
                 src="https://www.highervisibility.com/wp-content/themes/highervisibility_new/img/bbb.png"
                 alt="BBB Logo"
@@ -27,54 +27,36 @@ export default function MainFooter() {
                 {" "}
                 <ul>
                   <li>
-                    <a href="https://www.highervisibility.com/about-us/">
-                      About
-                    </a>
+                    <a href={"#"}>About</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/blog/">Blog</a>
+                    <a href={"#"}>Blog</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/resource/">
-                      Resources
-                    </a>
+                    <a href={"#"}>Resources</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/free-seo-tools/">
-                      Free SEO Tools
-                    </a>
+                    <a href={"#"}>Free SEO Tools</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/contact-us/">
-                      Contact Us
-                    </a>
+                    <a href={"#"}>Contact Us</a>
                   </li>
                 </ul>
                 <ul id="menu-footer-company-right" className="menu">
                   <li>
-                    <a href="https://www.highervisibility.com/careers/">
-                      Careers
-                    </a>
+                    <a href={"#"}>Careers</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/privacy-policy/">
-                      Privacy Policy
-                    </a>
+                    <a href={"#"}>Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/seo-reseller-program/">
-                      Reseller Program
-                    </a>
+                    <a href={"#"}>Reseller Program</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/marketing-scholarship/">
-                      Marketing Scholarship
-                    </a>
+                    <a href={"#"}>Marketing Scholarship</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/free-seo-tools/ctr-tool/">
-                      SEO CTR Grader
-                    </a>
+                    <a href={"#"}>SEO CTR Grader</a>
                   </li>
                 </ul>
               </div>
@@ -84,83 +66,53 @@ export default function MainFooter() {
               <div className="service-footer-nav-list">
                 <ul>
                   <li>
-                    <a href="https://www.highervisibility.com/online-marketing-services/">
-                      All Services
-                    </a>
+                    <a href={"#"}>All Services</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/search-engine-optimization/">
-                      Search Engine Optimization
-                    </a>
+                    <a href={"#"}>Search Engine Optimization</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/ppc-management/">
-                      PPC Management Services
-                    </a>
+                    <a href={"#"}>PPC Management Services</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/social-media-marketing/">
-                      Social Media Management
-                    </a>
+                    <a href={"#"}>Social Media Management</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/link-building/">
-                      Link Building Services
-                    </a>
+                    <a href={"#"}>Link Building Services</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/conversion-rate-optimization/">
-                      Conversion Optimization
-                    </a>
+                    <a href={"#"}>Conversion Optimization</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/website-design/">
-                      Web Design Services
-                    </a>
+                    <a href={"#"}>Web Design Services</a>
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <a href="https://www.highervisibility.com/local-seo-company/">
-                      Local SEO
-                    </a>
+                    <a href={"#"}>Local SEO</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/local-listings/">
-                      Local Listings
-                    </a>
+                    <a href={"#"}>Local Listings</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/ecommerce-seo-services/">
-                      Ecommerce SEO
-                    </a>
+                    <a href={"#"}>Ecommerce SEO</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/franchise-seo-services/">
-                      Franchise SEO
-                    </a>
+                    <a href={"#"}>Franchise SEO</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/seo-audit/">
-                      SEO Auditing Services
-                    </a>
+                    <a href={"#"}>SEO Auditing Services</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/google-penalty-recovery/">
-                      Penalty Recovery
-                    </a>
+                    <a href={"#"}>Penalty Recovery</a>
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <a href="https://www.highervisibility.com/industries/enterprise/">
-                      Enterprise
-                    </a>
+                    <a href={"#"}>Enterprise</a>
                   </li>
                   <li>
-                    <a href="https://www.highervisibility.com/industries/lawyers/">
-                      Lawyers
-                    </a>
+                    <a href={"#"}>Lawyers</a>
                   </li>
                 </ul>
               </div>
@@ -168,18 +120,14 @@ export default function MainFooter() {
           </div>
           <div className="contact-options">
             <p className="call-us">
-              <span>Call Us Toll Free:</span>{" "}
-              <a href="tel:8882124458">888.212.4458</a>
+              <span>Call Us Toll Free:</span> <a href={"#"}>888.212.4458</a>
             </p>
             <p className="email-us">
-              <span>Email Us:</span>{" "}
-              <a href="mailto:info@highervisibility.com">
-                info@highervisibility.com
-              </a>
+              <span>Email Us:</span> <a href={"#"}>info@highervisibility.com</a>
             </p>
             <p className="visit-us">
               <span>
-                <a href="https://www.highervisibility.com/memphis-marketing">
+                <a href={"#"}>
                   8000 Centerview Parkway Suite 203, Memphis, TN 38018
                 </a>
               </span>

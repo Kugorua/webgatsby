@@ -40,14 +40,12 @@ const Partners = () => (
                 return (
                   <div className="cell partner" key={index}>
                     <div className="case-study-logo">
-                      <a href="https://www.highervisibility.com/case-study/allied-van-lines/">
+                      <a href={"#"}>
                         <img src={item.node.img} alt="Allied Van Lines Logo" />
                       </a>
                     </div>
                     <h3>
-                      <a href="https://www.highervisibility.com/case-study/allied-van-lines/">
-                        {item.node.title}
-                      </a>
+                      <a href={"#"}>{item.node.title}</a>
                     </h3>
                     <p className="stat-number">{item.node.parameter}</p>
                     <p className="stat-type">{item.node.content}</p>

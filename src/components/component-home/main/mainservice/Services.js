@@ -32,10 +32,7 @@ const Services = () => (
                       <h3>{item.node.title}</h3>
                       <p>{item.node.content}</p>
 
-                      <a
-                        href="https://www.highervisibility.com/search-engine-optimization/"
-                        className="button secondary"
-                      >
+                      <a href={"#"} className="button secondary">
                         More
                       </a>
                     </div>

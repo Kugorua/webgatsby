@@ -26,7 +26,7 @@
     .owl-item {
       width: 30%;
       outline: none;
-      cursor: pointer;
+      cursor: -webkit-grab;
       .item-blog {
         text-align: left;
         background-color: #fff;
